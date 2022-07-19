@@ -19,6 +19,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Compile Update="Properties\Settings.Designer.cs">
+		  <DesignTimeSharedInput>True</DesignTimeSharedInput>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
 		<Compile Update="Resources.Designer.cs">
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
@@ -51,6 +56,10 @@
 		</None>
 		<None Update="LICENSE.txt">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Properties\Settings.settings">
+		  <Generator>SettingsSingleFileGenerator</Generator>
+		  <LastGenOutput>Settings.Designer.cs</LastGenOutput>
 		</None>
 		<None Update="README.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
