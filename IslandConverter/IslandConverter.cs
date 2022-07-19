@@ -193,10 +193,10 @@ namespace IslandConverter
             Log.Start(logFileBase + ".log");
 
             var map = gbx.MainNode;
-
+            
             Log.Write("Converting decoration...");
             map.Decoration = new Ident("64x64" + map.Decoration.ID.TrimEnd(), map.Decoration.Collection, map.Decoration.Author);
-
+            
             Log.Write("Converting environment...");
             map.Collection = "Stadium";
 
@@ -850,6 +850,16 @@ namespace IslandConverter
 
             foreach (var b in faultyBlocks.GroupBy(x => new { x.Name, x.Variant, x.IsGround }).Select(y => y.First()))
                 Log.Write($"- {b.Name}, variant {b.Variant}, ({(b.IsGround ? "Ground" : "Air")})", ConsoleColor.Yellow);
+
+            Log.Write();
+
+            Log.Write("Setting titlepack...");
+            gbx.MainNode.CreateChunk<CGameCtnChallenge.Chunk03043051>();
+
+            foreach (var c in gbx.Header.Chunks)
+                if (c is CGameCtnChallenge.Chunk03043003 cc)
+                    cc.Version = 11;
+            gbx.MainNode.TitleID = "TM2U_Island@adamkooo";
 
             Log.Write();
 
