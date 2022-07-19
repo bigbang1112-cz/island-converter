@@ -97,7 +97,7 @@ namespace IslandConverter
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pbThumbnail.Location = new System.Drawing.Point(7, 221);
             this.pbThumbnail.Name = "pbThumbnail";
-            this.pbThumbnail.Size = new System.Drawing.Size(209, 206);
+            this.pbThumbnail.Size = new System.Drawing.Size(208, 206);
             this.pbThumbnail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbThumbnail.TabIndex = 1;
             this.pbThumbnail.TabStop = false;
@@ -109,7 +109,7 @@ namespace IslandConverter
             this.bConvertAll.Enabled = false;
             this.bConvertAll.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.bConvertAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.bConvertAll.Location = new System.Drawing.Point(523, 264);
+            this.bConvertAll.Location = new System.Drawing.Point(522, 261);
             this.bConvertAll.Name = "bConvertAll";
             this.bConvertAll.Size = new System.Drawing.Size(161, 34);
             this.bConvertAll.TabIndex = 2;
@@ -139,7 +139,7 @@ namespace IslandConverter
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(224, 434);
+            this.groupBox1.Size = new System.Drawing.Size(223, 435);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Selected map";
@@ -148,7 +148,7 @@ namespace IslandConverter
             // 
             this.lBlockRange.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lBlockRange.AutoSize = true;
-            this.lBlockRange.Location = new System.Drawing.Point(11, 184);
+            this.lBlockRange.Location = new System.Drawing.Point(9, 184);
             this.lBlockRange.Name = "lBlockRange";
             this.lBlockRange.Size = new System.Drawing.Size(75, 15);
             this.lBlockRange.TabIndex = 4;
@@ -158,7 +158,7 @@ namespace IslandConverter
             // 
             this.lMapType.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lMapType.AutoSize = true;
-            this.lMapType.Location = new System.Drawing.Point(11, 171);
+            this.lMapType.Location = new System.Drawing.Point(9, 171);
             this.lMapType.Name = "lMapType";
             this.lMapType.Size = new System.Drawing.Size(60, 15);
             this.lMapType.TabIndex = 4;
@@ -168,7 +168,7 @@ namespace IslandConverter
             // 
             this.lBronzeM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lBronzeM.AutoSize = true;
-            this.lBronzeM.Location = new System.Drawing.Point(18, 158);
+            this.lBronzeM.Location = new System.Drawing.Point(17, 158);
             this.lBronzeM.Name = "lBronzeM";
             this.lBronzeM.Size = new System.Drawing.Size(49, 15);
             this.lBronzeM.TabIndex = 4;
@@ -178,7 +178,7 @@ namespace IslandConverter
             // 
             this.lSilverM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lSilverM.AutoSize = true;
-            this.lSilverM.Location = new System.Drawing.Point(18, 145);
+            this.lSilverM.Location = new System.Drawing.Point(17, 145);
             this.lSilverM.Name = "lSilverM";
             this.lSilverM.Size = new System.Drawing.Size(40, 15);
             this.lSilverM.TabIndex = 4;
@@ -188,7 +188,7 @@ namespace IslandConverter
             // 
             this.lGoldM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lGoldM.AutoSize = true;
-            this.lGoldM.Location = new System.Drawing.Point(18, 132);
+            this.lGoldM.Location = new System.Drawing.Point(17, 132);
             this.lGoldM.Name = "lGoldM";
             this.lGoldM.Size = new System.Drawing.Size(36, 15);
             this.lGoldM.TabIndex = 4;
@@ -198,7 +198,7 @@ namespace IslandConverter
             // 
             this.lAuthorM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lAuthorM.AutoSize = true;
-            this.lAuthorM.Location = new System.Drawing.Point(18, 119);
+            this.lAuthorM.Location = new System.Drawing.Point(17, 119);
             this.lAuthorM.Name = "lAuthorM";
             this.lAuthorM.Size = new System.Drawing.Size(45, 15);
             this.lAuthorM.TabIndex = 4;
@@ -208,7 +208,7 @@ namespace IslandConverter
             // 
             this.lMedals.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lMedals.AutoSize = true;
-            this.lMedals.Location = new System.Drawing.Point(11, 106);
+            this.lMedals.Location = new System.Drawing.Point(9, 106);
             this.lMedals.Name = "lMedals";
             this.lMedals.Size = new System.Drawing.Size(51, 15);
             this.lMedals.TabIndex = 4;
@@ -218,7 +218,7 @@ namespace IslandConverter
             // 
             this.lDecoration.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lDecoration.AutoSize = true;
-            this.lDecoration.Location = new System.Drawing.Point(11, 91);
+            this.lDecoration.Location = new System.Drawing.Point(9, 91);
             this.lDecoration.Name = "lDecoration";
             this.lDecoration.Size = new System.Drawing.Size(70, 15);
             this.lDecoration.TabIndex = 4;
@@ -228,7 +228,7 @@ namespace IslandConverter
             // 
             this.lSize.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lSize.AutoSize = true;
-            this.lSize.Location = new System.Drawing.Point(11, 78);
+            this.lSize.Location = new System.Drawing.Point(9, 78);
             this.lSize.Name = "lSize";
             this.lSize.Size = new System.Drawing.Size(34, 15);
             this.lSize.TabIndex = 4;
@@ -238,7 +238,7 @@ namespace IslandConverter
             // 
             this.lAuthor.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lAuthor.AutoSize = true;
-            this.lAuthor.Location = new System.Drawing.Point(11, 65);
+            this.lAuthor.Location = new System.Drawing.Point(9, 65);
             this.lAuthor.Name = "lAuthor";
             this.lAuthor.Size = new System.Drawing.Size(45, 15);
             this.lAuthor.TabIndex = 4;
@@ -248,7 +248,7 @@ namespace IslandConverter
             // 
             this.lUID.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lUID.AutoSize = true;
-            this.lUID.Location = new System.Drawing.Point(11, 52);
+            this.lUID.Location = new System.Drawing.Point(9, 52);
             this.lUID.Name = "lUID";
             this.lUID.Size = new System.Drawing.Size(31, 15);
             this.lUID.TabIndex = 3;
@@ -258,7 +258,7 @@ namespace IslandConverter
             // 
             this.lMapName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lMapName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lMapName.Location = new System.Drawing.Point(11, 23);
+            this.lMapName.Location = new System.Drawing.Point(9, 23);
             this.lMapName.Name = "lMapName";
             this.lMapName.Size = new System.Drawing.Size(201, 20);
             this.lMapName.TabIndex = 2;
@@ -276,7 +276,7 @@ namespace IslandConverter
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Location = new System.Drawing.Point(6, 19);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(673, 105);
+            this.panel1.Size = new System.Drawing.Size(672, 102);
             this.panel1.TabIndex = 4;
             // 
             // lbLog
@@ -287,7 +287,7 @@ namespace IslandConverter
             this.lbLog.ItemHeight = 15;
             this.lbLog.Location = new System.Drawing.Point(0, 0);
             this.lbLog.Name = "lbLog";
-            this.lbLog.Size = new System.Drawing.Size(671, 103);
+            this.lbLog.Size = new System.Drawing.Size(670, 100);
             this.lbLog.TabIndex = 0;
             // 
             // groupBox2
@@ -299,7 +299,7 @@ namespace IslandConverter
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.groupBox2.Location = new System.Drawing.Point(6, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(684, 130);
+            this.groupBox2.Size = new System.Drawing.Size(684, 127);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Output";
@@ -307,6 +307,7 @@ namespace IslandConverter
             // ProgramMenuStrip
             // 
             this.ProgramMenuStrip.BackColor = System.Drawing.SystemColors.Window;
+            this.ProgramMenuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.ProgramMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FileItem,
             this.ViewItem,
@@ -314,6 +315,7 @@ namespace IslandConverter
             this.toolStripMenuItem2});
             this.ProgramMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.ProgramMenuStrip.Name = "ProgramMenuStrip";
+            this.ProgramMenuStrip.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.ProgramMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.ProgramMenuStrip.Size = new System.Drawing.Size(924, 24);
             this.ProgramMenuStrip.TabIndex = 5;
@@ -325,19 +327,19 @@ namespace IslandConverter
             this.addAMapToolStripMenuItem,
             this.closeToolStripMenuItem});
             this.FileItem.Name = "FileItem";
-            this.FileItem.Size = new System.Drawing.Size(37, 20);
+            this.FileItem.Size = new System.Drawing.Size(38, 22);
             this.FileItem.Text = "File";
             // 
             // addAMapToolStripMenuItem
             // 
             this.addAMapToolStripMenuItem.Name = "addAMapToolStripMenuItem";
-            this.addAMapToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.addAMapToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.addAMapToolStripMenuItem.Text = "Add maps...";
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.CloseToolStripMenuItem_Click);
             // 
@@ -347,20 +349,20 @@ namespace IslandConverter
             this.showHideMapPreviewToolStripMenuItem,
             this.showHideCommandLineOutputToolStripMenuItem});
             this.ViewItem.Name = "ViewItem";
-            this.ViewItem.Size = new System.Drawing.Size(44, 20);
+            this.ViewItem.Size = new System.Drawing.Size(46, 22);
             this.ViewItem.Text = "View";
             // 
             // showHideMapPreviewToolStripMenuItem
             // 
             this.showHideMapPreviewToolStripMenuItem.Name = "showHideMapPreviewToolStripMenuItem";
-            this.showHideMapPreviewToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.showHideMapPreviewToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
             this.showHideMapPreviewToolStripMenuItem.Text = "Show/Hide Map Preview";
             this.showHideMapPreviewToolStripMenuItem.Click += new System.EventHandler(this.ShowHideMapPreviewToolStripMenuItem_Click);
             // 
             // showHideCommandLineOutputToolStripMenuItem
             // 
             this.showHideCommandLineOutputToolStripMenuItem.Name = "showHideCommandLineOutputToolStripMenuItem";
-            this.showHideCommandLineOutputToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.showHideCommandLineOutputToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
             this.showHideCommandLineOutputToolStripMenuItem.Text = "Show/Hide Command Line Output";
             this.showHideCommandLineOutputToolStripMenuItem.Click += new System.EventHandler(this.ShowHideCommandLineOutputToolStripMenuItem_Click);
             // 
@@ -370,25 +372,25 @@ namespace IslandConverter
             this.tsmiChangeManiaPlanetUserdataLocation,
             this.tsmiASuperSecretOption});
             this.tsmiOptions.Name = "tsmiOptions";
-            this.tsmiOptions.Size = new System.Drawing.Size(61, 20);
+            this.tsmiOptions.Size = new System.Drawing.Size(63, 22);
             this.tsmiOptions.Text = "Options";
             // 
             // tsmiChangeManiaPlanetUserdataLocation
             // 
             this.tsmiChangeManiaPlanetUserdataLocation.Name = "tsmiChangeManiaPlanetUserdataLocation";
-            this.tsmiChangeManiaPlanetUserdataLocation.Size = new System.Drawing.Size(283, 22);
+            this.tsmiChangeManiaPlanetUserdataLocation.Size = new System.Drawing.Size(296, 22);
             this.tsmiChangeManiaPlanetUserdataLocation.Text = "Change ManiaPlanet user-data location";
             // 
             // tsmiASuperSecretOption
             // 
             this.tsmiASuperSecretOption.Name = "tsmiASuperSecretOption";
-            this.tsmiASuperSecretOption.Size = new System.Drawing.Size(283, 22);
+            this.tsmiASuperSecretOption.Size = new System.Drawing.Size(296, 22);
             this.tsmiASuperSecretOption.Text = "... a super secret option";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(52, 20);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(53, 22);
             this.toolStripMenuItem2.Text = "About";
             // 
             // bOpenFolder
@@ -396,7 +398,7 @@ namespace IslandConverter
             this.bOpenFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bOpenFolder.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.bOpenFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.bOpenFolder.Location = new System.Drawing.Point(12, 264);
+            this.bOpenFolder.Location = new System.Drawing.Point(12, 261);
             this.bOpenFolder.Name = "bOpenFolder";
             this.bOpenFolder.Size = new System.Drawing.Size(161, 34);
             this.bOpenFolder.TabIndex = 7;
@@ -422,12 +424,10 @@ namespace IslandConverter
             // x45Button
             // 
             this.x45Button.AutoSize = true;
-            this.x45Button.Checked = true;
             this.x45Button.Location = new System.Drawing.Point(6, 71);
             this.x45Button.Name = "x45Button";
             this.x45Button.Size = new System.Drawing.Size(592, 19);
             this.x45Button.TabIndex = 6;
-            this.x45Button.TabStop = true;
             this.x45Button.Text = "45x45 area with small border with Island background, requires OpenPlanet to work " +
     "(also recommended)";
             this.x45Button.UseVisualStyleBackColor = true;
@@ -436,6 +436,7 @@ namespace IslandConverter
             // x32Button
             // 
             this.x32Button.AutoSize = true;
+            this.x32Button.Checked = true;
             this.x32Button.Location = new System.Drawing.Point(6, 45);
             this.x32Button.Name = "x32Button";
             this.x32Button.Size = new System.Drawing.Size(612, 19);
@@ -453,7 +454,6 @@ namespace IslandConverter
             this.x31Button.Name = "x31Button";
             this.x31Button.Size = new System.Drawing.Size(527, 19);
             this.x31Button.TabIndex = 6;
-            this.x31Button.TabStop = true;
             this.x31Button.Text = "31x31 area with small border and no Island background, doesn\'t require OpenPlanet" +
     " to work";
             this.x31Button.UseVisualStyleBackColor = true;
@@ -465,7 +465,7 @@ namespace IslandConverter
             this.bConvertSelected.Enabled = false;
             this.bConvertSelected.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.bConvertSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.bConvertSelected.Location = new System.Drawing.Point(355, 264);
+            this.bConvertSelected.Location = new System.Drawing.Point(354, 261);
             this.bConvertSelected.Name = "bConvertSelected";
             this.bConvertSelected.Size = new System.Drawing.Size(161, 34);
             this.bConvertSelected.TabIndex = 2;
@@ -499,7 +499,7 @@ namespace IslandConverter
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Panel2MinSize = 100;
             this.splitContainer1.Size = new System.Drawing.Size(690, 437);
-            this.splitContainer1.SplitterDistance = 300;
+            this.splitContainer1.SplitterDistance = 301;
             this.splitContainer1.TabIndex = 9;
             // 
             // cbIgnoreMediaTracker
@@ -507,7 +507,7 @@ namespace IslandConverter
             this.cbIgnoreMediaTracker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cbIgnoreMediaTracker.AutoSize = true;
             this.cbIgnoreMediaTracker.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cbIgnoreMediaTracker.Location = new System.Drawing.Point(559, 241);
+            this.cbIgnoreMediaTracker.Location = new System.Drawing.Point(558, 242);
             this.cbIgnoreMediaTracker.Name = "cbIgnoreMediaTracker";
             this.cbIgnoreMediaTracker.Size = new System.Drawing.Size(125, 17);
             this.cbIgnoreMediaTracker.TabIndex = 10;
@@ -519,7 +519,7 @@ namespace IslandConverter
             this.cbCutoff.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cbCutoff.AutoSize = true;
             this.cbCutoff.Enabled = false;
-            this.cbCutoff.Location = new System.Drawing.Point(12, 241);
+            this.cbCutoff.Location = new System.Drawing.Point(12, 242);
             this.cbCutoff.Name = "cbCutoff";
             this.cbCutoff.Size = new System.Drawing.Size(216, 17);
             this.cbCutoff.TabIndex = 10;
@@ -538,7 +538,7 @@ namespace IslandConverter
             this.lvMaps.LargeImageList = this.ilThumbnails;
             this.lvMaps.Location = new System.Drawing.Point(6, 5);
             this.lvMaps.Name = "lvMaps";
-            this.lvMaps.Size = new System.Drawing.Size(682, 125);
+            this.lvMaps.Size = new System.Drawing.Size(682, 126);
             this.lvMaps.TabIndex = 9;
             this.lvMaps.UseCompatibleStateImageBehavior = false;
             this.lvMaps.View = System.Windows.Forms.View.Tile;
@@ -584,7 +584,7 @@ namespace IslandConverter
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.ProgramMenuStrip;
-            this.MinimumSize = new System.Drawing.Size(839, 500);
+            this.MinimumSize = new System.Drawing.Size(839, 495);
             this.Name = "ConverterForm";
             this.Text = "Island Converter by BigBang1112";
             ((System.ComponentModel.ISupportInitialize)(this.pbThumbnail)).EndInit();

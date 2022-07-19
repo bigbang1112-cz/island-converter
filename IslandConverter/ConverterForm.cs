@@ -41,6 +41,9 @@ namespace IslandConverter
             toolStripMenuItem2.Click += AboutToolStripMenuItem_Click;
             tsmiChangeManiaPlanetUserdataLocation.Click += TsmiChangeManiaPlanetUserdataLocation_Click;
 
+            groupBox1.Visible = Properties.Settings.Default.previewVisible;
+            splitContainer1.Panel2Collapsed = Properties.Settings.Default.cmdVisible;
+
             logTimer.Interval = 50;
             logTimer.Tick += LogTimer_Tick;
             logTimer.Start();
@@ -82,11 +85,13 @@ namespace IslandConverter
         private void ShowHideMapPreviewToolStripMenuItem_Click(object sender, EventArgs e)
         {
             groupBox1.Visible = !groupBox1.Visible;
+            Properties.Settings.Default.previewVisible = !Properties.Settings.Default.previewVisible;
         }
 
         private void ShowHideCommandLineOutputToolStripMenuItem_Click(object sender, EventArgs e)
         {
             splitContainer1.Panel2Collapsed = !splitContainer1.Panel2Collapsed;
+            Properties.Settings.Default.cmdVisible = !Properties.Settings.Default.cmdVisible;
         }
 
         private void CloseToolStripMenuItem_Click(object sender, EventArgs e)
