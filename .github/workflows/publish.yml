@@ -31,6 +31,7 @@ jobs:
       run: ren IslandConverter\bin\x86\Release\net452 IslandConverter
       
     - name: Zip to IslandConverter.zip
-      uses: montudor/action-zip@v1
+      uses: thedoctor0/zip-release@main
       with:
-        args: zip -qq -r IslandConverter.zip IslandConverter\bin\x86\Release\IslandConverter
+        path: IslandConverter\bin\x86\Release\IslandConverter
+        filename: IslandConverter.zip
