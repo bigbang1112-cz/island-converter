@@ -28,17 +28,17 @@ jobs:
     - name: Build the solution
       run: msbuild IslandConverter.sln /property:Configuration=Release
       
-    - name: Rename net452 to IslandConverter.${{ github.ref }}
-      run: ren IslandConverter\bin\x86\Release\net452 IslandConverter.${{ github.ref }}
+    - name: Rename net452 to IslandConverter.${{ github.ref_name }}
+      run: ren IslandConverter\bin\x86\Release\net452 IslandConverter.${{ github.ref_name }}
       
-    - name: Zip to IslandConverter.${{ github.ref }}.zip
+    - name: Zip to IslandConverter.${{ github.ref_name }}.zip
       uses: thedoctor0/zip-release@main
       with:
-        path: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref }}
-        filename: IslandConverter.${{ github.ref }}.zip
+        path: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref_name }}
+        filename: IslandConverter.${{ github.ref_name }}.zip
       
-    - name: Upload IslandConverter.${{ github.ref }}.zip to latest release
+    - name: Upload IslandConverter.${{ github.ref_name }}.zip to latest release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: IslandConverter.${{ github.ref }}.zip
+        artifacts: IslandConverter.${{ github.ref_name }}.zip
         token: ${{ secrets.GITHUB_TOKEN }}
