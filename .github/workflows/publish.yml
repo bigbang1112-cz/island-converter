@@ -1,4 +1,4 @@
-name: .NET Core Desktop
+name: Publish
 
 on:
   workflow_dispatch:
@@ -25,4 +25,7 @@ jobs:
       run: nuget restore IslandConverter.sln
       
     - name: Build the solution
-      run: msbuild IslandConverter.sln
+      run: msbuild IslandConverter.sln /property:Configuration=Release
+      
+    - name: Rename net452 to IslandConverter
+      run: ren IslandConverter\bin\x86\Debug\net452 IslandConverter\bin\x86\Debug\IslandConverter
