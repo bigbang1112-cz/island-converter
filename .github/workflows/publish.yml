@@ -1,7 +1,8 @@
 name: Publish
 
 on:
-  workflow_dispatch:
+  release:
+    types: [ published ]
 
 jobs:
 
@@ -27,11 +28,17 @@ jobs:
     - name: Build the solution
       run: msbuild IslandConverter.sln /property:Configuration=Release
       
-    - name: Rename net452 to IslandConverter
-      run: ren IslandConverter\bin\x86\Release\net452 IslandConverter
+    - name: Rename net452 to IslandConverter.${{ github.ref }}
+      run: ren IslandConverter\bin\x86\Release\net452 IslandConverter.${{ github.ref }}
       
-    - name: Zip to IslandConverter.zip
+    - name: Zip to IslandConverter.${{ github.ref }}.zip
       uses: thedoctor0/zip-release@main
       with:
-        path: IslandConverter\bin\x86\Release\IslandConverter
-        filename: IslandConverter.zip
+        path: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref }}
+        filename: IslandConverter.${{ github.ref }}.zip
+      
+    - name: Upload IslandConverter.${{ github.ref }}.zip to latest release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: IslandConverter.${{ github.ref }}.zip
+        token: ${{ secrets.GITHUB_TOKEN }}
