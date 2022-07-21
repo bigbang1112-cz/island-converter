@@ -34,13 +34,14 @@ jobs:
     - name: Zip to IslandConverter.${{ github.ref_name }}.zip
       uses: thedoctor0/zip-release@main
       with:
-        path: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref_name }}
+        directory: IslandConverter\bin\x86\Release
+        path: IslandConverter.${{ github.ref_name }}
         filename: IslandConverter.${{ github.ref_name }}.zip
       
     - name: Upload IslandConverter.${{ github.ref_name }}.zip to latest release
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: IslandConverter.${{ github.ref_name }}.zip
+        file: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref_name }}.zip
         tag: ${{ github.ref }}
         overwrite: true
