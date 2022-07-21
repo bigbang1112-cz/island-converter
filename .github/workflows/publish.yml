@@ -28,4 +28,4 @@ jobs:
       run: msbuild IslandConverter.sln /property:Configuration=Release
       
     - name: Rename net452 to IslandConverter
-      run: ren IslandConverter\bin\x86\Debug\net452 IslandConverter\bin\x86\Debug\IslandConverter
+      run: ren IslandConverter\bin\x86\Release\net452 IslandConverter\bin\x86\Release\IslandConverter
