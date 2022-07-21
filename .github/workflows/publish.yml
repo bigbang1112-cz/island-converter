@@ -38,7 +38,9 @@ jobs:
         filename: IslandConverter.${{ github.ref_name }}.zip
       
     - name: Upload IslandConverter.${{ github.ref_name }}.zip to latest release
-      uses: ncipollo/release-action@v1
+      uses: svenstaro/upload-release-action@v2
       with:
-        artifacts: IslandConverter.${{ github.ref_name }}.zip
-        token: ${{ secrets.GITHUB_TOKEN }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: IslandConverter.${{ github.ref_name }}.zip
+        tag: ${{ github.ref }}
+        overwrite: true
