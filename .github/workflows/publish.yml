@@ -45,3 +45,4 @@ jobs:
         file: IslandConverter\bin\x86\Release\IslandConverter.${{ github.ref_name }}.zip
         tag: ${{ github.ref }}
         overwrite: true
+        body: ${{ github.event.release.body }}\n\nThe ZIP was automatically generated using the [publish workflow](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}).
